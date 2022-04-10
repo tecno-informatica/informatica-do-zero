@@ -108,3 +108,22 @@ div.desc {
     display: table;
     clear: both;
 }
+
+footer { /*Configuração geral*/
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+footer a { /*Link Rodapé*/
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {  /*Ao passar o mouse*/
+    text-decoration: underline;
+    color: var(--cor5);
+}
