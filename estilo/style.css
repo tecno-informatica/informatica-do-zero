@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+@font-face {
+    font-weight: 'normal';
+
+    font-family: 'Bebas';
+    src: url('material/fontes/BebasNeue-Regular.ttf') format('truetype');
+
+    font-family: 'RobotoBold';
+    src: url('material/fontes/roboto/Roboto-Bold.ttf') format('truetype');
+
+    font-family: 'RaceSport';
+    src: url('material/fontes/Race\ Sport.ttf') format('truetype');
+
+    font-family: 'RobotoRegular';
+    src:url('material/fontes/roboto/Roboto-Regular.ttf') format('truetype');
+
+    font-family: 'Roboto-Italic';
+    src: url('material/fontes/roboto/Roboto-Italic.ttf')  format('truetype');
+
+    font-family: 'ThinItalic';
+    src: url('material/fontes/roboto/Roboto-ThinItalic.ttf') format('truetype');
+
+    font-family: 'idroid';
+    src: url('material/fontes/idroid.otf') format('opentype');
+}
+
+:root {
+   --cor1:#3E76F0;
+   --cor2:#34A6F7;
+   --cor3:#3AC7E0;
+   --cor4:#6DF7E5;
+   --cor5:#69F0B8;
+
+   --fonte-padrao: 'Arial, times new, Verdana, Helvetica, sans-serif';
+   --fonte-destaque: 'Bebas Neue', cursiva;
+   --fonte-romoto: 'Roboto-Bold', sans-serif;
+   --fonte-sport: 'Race Sport', sans-serif;
+   --fonte-regular: 'Roboto-Regular', sans-serif;
+   --font-italic: 'italic', sans-serif;
+   --fonte-idroid: 'idroi';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor5);
+    }
+
+    a.externo::after {/*Todo Link Externo vai receber esse icone*/
+     content: '\1F517';
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor5), var(--cor1));
+        background-color: var(--cor1);
+        text-align: center;
+        min-height: 150px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+    }
+
+    /*header > h1 {
+        color: white; 
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-family: var(--font-italic);
+        font-size: 60px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.589);
+    }
+
+    /*header > p {
+        color: white;
+        font-size: 1.6em;
+        font-family: 'Roboto-Italic', Arial, Helvetica, sans-serif;
+        max-width: 600px;
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
+    }
+     */
+
+       header picture {
+        height: 125px;
+    }
+
+    nav {
+        background-color: rgba(34, 93, 221, 0.842);
+        box-shadow: 6px 2px 10px 2px rgba(0, 0, 0, 0.144);
+        padding: 12px;
+        font-size: 1.1em;
+        font-family: 'RobotoBold', Arial, Helvetica, sans-serif;
+    }
+
+    nav > a {
+        color: rgb(206, 203, 203);
+        padding: 12px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+
+    nav a:hover {
+        background-color: var(--cor3);
+        color: var(--cor1);
+    }
+
+    main {
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        background-color: rgb(243, 240, 240);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    main h1 {
+        color: var(--cor1);
+        font-family: 'RaceSport', Arial, Helvetica, sans-serif;
+    }
+
+    main h2 {
+        font-weight: normal;
+        padding-left: 5px;
+        height: 50px;
+        margin-top: 45px;
+        border-radius: 10px;
+        font-family: var(--fonte-destaque);
+        color: var(--cor1);
+        /*font-size: 1.3em;*/
+        font-size: calc(0.7em + 1vw);
+        background-image: linear-gradient(to right, var(--cor5), transparent);
+    }
+
+    p.assuntos {
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(to right, black, transparent);
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 10px;
+        margin-top: 60px;
+    }
+
+    main p {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    ol li {
+        margin-left: 25px;
+        height: 28px;
+        padding-top: 15px;
+        font-size: 1.2em;
+        font-family: var(--fonte-destaque);
+    }
+
+    .subtitulo {
+        margin-left: 20px;
+    }
+
+    main strong {
+        color: var(--cor1);
+        font-weight: bold;
+        border-radius: 2px;
+    }
+
+    main a {
+        /*text-decoration: none;*/
+        font-weight: bold;
+        color: rgb(4, 50, 68);
+        /*background-color: var(--cor3);*/
+        padding: 2px 6px;
+    }
+
+    main a:hover {
+        text-decoration: underline;
+        color: var(--cor1);
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    /*main img.pequena {
+        max-width: 30%;
+        display: block;
+        margin: auto;
+    }*/
+
+    div.video1 {
+        background-color: #f1eded;
+        margin: 0px 5px 30px 5px;
+        text-align: center;
+        border-radius: 3%;
+        padding: 0.5% 0.5% 0.5% 0.5%;
+        
+    }
+
+    .espaço {
+        padding-top: 5%;
+    }
+
+   /* div.video {
+        background-color: rgb(213, 226, 226);
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 49.1%;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    div.video > iframe {
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        width: 94%;
+        height: 94%;
+    }*/
+
+    aside {
+        background-color: var(--cor4);
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+    }
+
+    aside > h3 {
+        background-color: var(--cor3);
+        color: white;
+        padding: 10px;
+        margin: -10px -10px 0px -10px;
+        border-radius: 10px 10px 0px 0px; 
+    }
+
+    aside > ul {
+        list-style-type: '\2714\00A\00A';
+        list-style-position: inside;
+        columns: 2;
+    }
+
+    footer { /*Configuração geral*/
+        background-color: var(--cor1);
+        color: var(--cor5);
+        text-align: center;
+        font-size: 0.9em;
+        padding: 5px;
+    }
+
+    footer a { /*Link Rodapé*/
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    footer a:hover {  /*Ao passar o mouse*/
+        text-decoration: underline;
+        color: var(--cor5);
+    }
