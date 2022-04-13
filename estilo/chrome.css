@@ -86,6 +86,25 @@ main img {
     width: 100%;
 }
 
+main strong {
+    color: var(--cor1);
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+main a {
+    /*text-decoration: none;*/
+    font-weight: bold;
+    color: rgb(4, 50, 68);
+    /*background-color: var(--cor3);*/
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
  footer { /*Configuração geral*/
     background-color: var(--cor1);
     color: var(--cor5);
