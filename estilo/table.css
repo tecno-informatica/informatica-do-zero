@@ -37,11 +37,12 @@ div#container {
     overflow-x: auto;
     padding-left: 15%;
     padding-right: 15%;
+    padding-top: 40px;
     
 }
 
-h3 {
+h4 {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
