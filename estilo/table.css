@@ -36,6 +36,9 @@ tr:nth-child(even) {
 div#container {
     overflow-x: auto;
     padding-left: 27%;
-   
+}
+
+h3 {
+    padding: 50px;
 }
 
