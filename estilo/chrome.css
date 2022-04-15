@@ -105,6 +105,28 @@ main a:hover {
     color: var(--cor1);
 }
 
+p.assuntos {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, black, transparent);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+div.video1 {
+    background-color: #f1eded;
+    margin: 0px 5px 30px 5px;
+    text-align: center;
+    border-radius: 3%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    
+}
+
+.espaço {
+    padding-top: 5%;
+}
+
  footer { /*Configuração geral*/
     background-color: var(--cor1);
     color: var(--cor5);
