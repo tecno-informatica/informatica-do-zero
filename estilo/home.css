@@ -33,9 +33,9 @@ header {
 
 }
 
-header picture {
+/*header picture {
     height: 125px;
-}
+}*/
 
 img.logo {
     height: 85px;
@@ -62,7 +62,7 @@ nav {
 
 @media (max-width: 750px) {
     nav {
-      top: 17.6%;
+      top: 24%;
 }
 }
 
