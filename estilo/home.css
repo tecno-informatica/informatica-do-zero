@@ -42,10 +42,16 @@ nav {
 }
 
 @media only screen and (max-width: 700px) {
-    nav {
+    .nav {
         top: 26%;
     }
     
+}
+
+@media only screen and (max-width: 500px) {
+    .nav {
+        top: 20%;
+    }
 }
 
 nav > a {
