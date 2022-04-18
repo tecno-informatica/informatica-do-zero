@@ -20,6 +20,9 @@ header {
     min-height: 150px;
     padding-top: 10px;
     padding-bottom: 1px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 
 header picture {
@@ -32,6 +35,17 @@ nav {
     padding: 12px;
     font-size: 1.1em;
     font-family: 'RobotoBold', Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 27.8%;
+}
+
+@media only screen and (max-width: 700px) {
+    nav {
+        top: 26%;
+    }
+    
 }
 
 nav > a {
@@ -53,6 +67,7 @@ main {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
+    padding-top: 250px;
     background-color: rgb(243, 240, 240);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
     border-bottom-left-radius: 10px;
