@@ -41,18 +41,13 @@ nav {
     top: 27.8%;
 }
 
-@media only screen and (max-width: 700px) {
-    .nav {
-        top: 26%;
+@media (min-width: 450px) and (max-width: 800px) {
+    nav {
+        top: 39%;
     }
     
 }
 
-@media only screen and (max-width: 500px) {
-    .nav {
-        top: 20%;
-    }
-}
 
 nav > a {
     color: rgb(206, 203, 203);
