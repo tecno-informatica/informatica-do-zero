@@ -25,7 +25,7 @@ header {
     width: 100%;
 }
 
-@media (min-width:250px) and (max-width:750px) {
+@media (min-width:250px) and (max-width:750) {
     header {
         min-height: 11px;
         padding-top: 8px;
@@ -62,7 +62,7 @@ nav {
 
 @media (min-width:450px) and (max-width:800px) {
 nav {
-    top: 16%;
+    top: 10%;
 }
 }
 
