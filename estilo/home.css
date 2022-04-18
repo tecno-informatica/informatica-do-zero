@@ -40,13 +40,13 @@ header {
 img.logo {
     height: 85px;
 }
-
+/*
 @media (min-width: 250px) and (max-width: 800px) {
     img.logo {
        height: 80px;
     }
     
-}
+}*/
 
 nav {
     background-color: rgba(34, 93, 221, 0.842);
