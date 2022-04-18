@@ -41,7 +41,7 @@ img.logo {
     height: 85px;
 }
 
-@media (min-width: 450px) and (max-width: 800px) {
+@media (min-width: 250px) and (max-width: 800px) {
     img.logo {
        height: 80px;
     }
@@ -60,7 +60,7 @@ nav {
     top: 17.6%;
 }
 
-@media (min-width:450px) and (max-width:800px) {
+@media (min-width:250px) and (max-width:800px) {
 nav {
     top: 6%;
 }
@@ -93,7 +93,7 @@ main {
     border-bottom-right-radius: 10px;
 }
 
-@media (min-width:450px) and (max-width:800px) {
+@media (min-width:250px) and (max-width:800px) {
     main {
         padding-top: 170px;
     }
