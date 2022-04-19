@@ -32,7 +32,7 @@ header {
     position: fixed;
     width: 100%;
 }
-
+/*
 @media (min-width:250px) and (max-width:750) {
     header {
         min-height: 11px;

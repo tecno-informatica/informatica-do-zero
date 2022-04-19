@@ -25,26 +25,26 @@
     text-align: center;
     min-height: 100px;
     padding-top: 40px;
-    padding-bottom: 1px;
+    padding-bottom: -1px;
     overflow: hidden;
     position: fixed;
     width: 100%;
 }
-
+/*
 @media (min-width:250px) and (max-width:750) {
     header {
         min-height: 11px;
         padding-top: 8px;
     }
 
-}
+}*/
 
 /*header picture {
     height: 125px;
 }*/
 
 img.logo {
-    height: 84px;
+    height: 95px;
 }
 
 /*
