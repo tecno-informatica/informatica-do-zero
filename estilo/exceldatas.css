@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+:root {
+   --cor1:#3E76F0;
+   --cor2:#34A6F7;
+   --cor3:#3AC7E0;
+   --cor4:#6DF7E5;
+   --cor5:#69F0B8;
+
+   --fonte01: 'Noto Sans', arial, cursiva, Verdana, Geneva, Tahoma, sans-serif;
+   --fonte02: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor5);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor5), var(--cor1));
+    background-color: var(--cor1);
+    text-align: center;
+    min-height: 10px;
+    padding-top: 45px;
+    padding-bottom: -1px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+/*
+@media (min-width:250px) and (max-width:750) {
+    header {
+        min-height: 11px;
+        padding-top: 8px;
+    }
+
+}
+
+/*header picture {
+    height: 125px;
+}*/
+
+img.logo {
+    height: 80px;
+}
+
+/*
+@media (min-width: 250px) and (max-width: 800px) {
+    img.logo {
+       height: 80px;
+    }
+    
+}*/
+
+nav {
+    background-color: rgba(34, 93, 221, 0.842);
+    box-shadow: 6px 2px 10px 2px rgba(0, 0, 0, 0.144);
+    padding: 12px;
+    font-size: 1.1em;
+    font-family: 'RobotoBold', Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: -1%;
+}
+
+nav > a {
+    color: rgb(206, 203, 203);
+    padding: 11px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+@media (min-width:500px) and (max-width: 700px) {
+    nav > a {
+        padding:9px;
+    }
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor1);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 150px;
+    background-color: rgb(243, 240, 240);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: var(--fonte01);
+    font-size: 18px;
+   
+}
+
+@media (min-width:250px) and (max-width:800px) {
+    main {
+        padding-top: 170px;
+    }
+}
+
+footer { /*Configuração geral*/
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+footer a { /*Link Rodapé*/
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {  /*Ao passar o mouse*/
+    text-decoration: underline;
+    color: var(--cor5);
+}

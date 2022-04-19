@@ -21,8 +21,6 @@
     font-family: 'ThinItalic';
     src: url('material/fontes/roboto/Roboto-ThinItalic.ttf') format('truetype');
 
-    font-family: 'idroid';
-    src: url('material/fontes/idroid.otf') format('opentype');
 }
 
 :root {
@@ -33,12 +31,12 @@
    --cor5:#69F0B8;
 
    --fonte-padrao: 'Arial, times new, Verdana, Helvetica, sans-serif';
-   --fonte-destaque: 'Bebas Neue', cursiva;
+   /*--fonte-destaque: 'Bebas Neue', cursiva;*/
    --fonte-romoto: 'Roboto-Bold', sans-serif;
    --fonte-sport: 'Race Sport', sans-serif;
    --fonte-regular: 'Roboto-Regular', sans-serif;
    --font-italic: 'italic', sans-serif;
-   --fonte-idroid: 'idroi';
+ 
 }
 
 * {
@@ -154,7 +152,7 @@ body {
         height: 50px;
         margin-top: 45px;
         border-radius: 10px;
-        font-family: var(--fonte-destaque);
+        /*font-family: var(--fonte-destaque);*/
         color: var(--cor1);
         /*font-size: 1.3em;*/
         font-size: calc(0.7em + 1vw);
