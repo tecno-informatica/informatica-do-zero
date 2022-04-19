@@ -1,11 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@300 & display=swap');
+
 :root {
    --cor1:#3E76F0;
    --cor2:#34A6F7;
    --cor3:#3AC7E0;
    --cor4:#6DF7E5;
    --cor5:#69F0B8;
+
+   --fonte01: 'Noto Sans', arial, cursiva, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -13,12 +17,16 @@
     padding: 0px;
 }
 
+body {
+    background-color: var(--cor5);
+}
+
 header {
     background-image: linear-gradient(to top, var(--cor5), var(--cor1));
     background-color: var(--cor1);
     text-align: center;
     min-height: 100px;
-    padding-top: 38px;
+    padding-top: 40px;
     padding-bottom: 1px;
     overflow: hidden;
     position: fixed;
@@ -91,6 +99,7 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+   
 }
 
 @media (min-width:250px) and (max-width:800px) {
@@ -99,9 +108,23 @@ main {
     }
 }
 
-h2, h3 {
+h3 {
     text-align: center;
+    font-size: 27px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    line-height: 1.5em;
+    font-family: var(--fonte1);
 }
+
+
+h4 {
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 35px;
+    font-family: var(--fonte01);
+}
+
 
 div.galeria {
     border: 1px solid #ccc;
