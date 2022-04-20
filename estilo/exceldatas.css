@@ -17,6 +17,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-align: justify;
 }
 
 body {
@@ -27,8 +28,8 @@ header {
     background-image: linear-gradient(to top, var(--cor5), var(--cor1));
     background-color: var(--cor1);
     text-align: center;
-    min-height: 10px;
-    padding-top: 45px;
+    min-height: 80px;
+    padding-top: 40px;
     padding-bottom: -1px;
     overflow: hidden;
     position: fixed;
@@ -49,6 +50,8 @@ header {
 
 img.logo {
     height: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /*
@@ -96,7 +99,7 @@ main {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
-    padding-top: 150px;
+    padding-top: 180px;
     background-color: rgb(243, 240, 240);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
     border-bottom-left-radius: 10px;
@@ -104,6 +107,52 @@ main {
     font-family: var(--fonte01);
     font-size: 18px;
    
+}
+
+h1 {
+    color: var(--cor1);
+    padding-bottom: 15px;
+}
+
+ p {
+    padding: 10px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.excelinter > ol > li {
+    margin-left: 22px;
+    text-align: justify;
+    padding: 15px;
+    padding-top: 50px;
+}
+
+
+ul > li {
+    margin-left: 35px;
+    padding: 10px;
+    
+}
+
+ul {
+    list-style-type: disc;
+}
+
+mark {
+    background-color: var(--cor4);
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.excelconclu {
+    padding-top: 10px;
 }
 
 @media (min-width:250px) and (max-width:800px) {
@@ -118,6 +167,7 @@ footer { /*Configuração geral*/
     text-align: center;
     font-size: 0.9em;
     padding: 5px;
+    
 }
 
 footer a { /*Link Rodapé*/
