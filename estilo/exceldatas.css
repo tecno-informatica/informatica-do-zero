@@ -109,6 +109,16 @@ main {
    
 }
 
+article a {
+    color: rgb(9, 31, 138);
+    font-weight: bold;
+}
+
+article a:hover {
+    color: var(--cor1);
+    
+}
+
 h1 {
     color: var(--cor1);
     padding-bottom: 15px;
@@ -160,6 +170,24 @@ img {
     main {
         padding-top: 170px;
     }
+}
+
+p.assuntos1 {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, black, transparent);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+div.video1 {
+    background-color: #f1eded;
+    margin: 0px 5px 30px 5px;
+    text-align: center;
+    border-radius: 3%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    
 }
 
 footer { /*Configuração geral*/
