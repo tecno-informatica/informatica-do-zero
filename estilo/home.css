@@ -121,13 +121,20 @@ h3 {
 h4 {
     text-align: justify;
     margin-bottom: 20px;
-    line-height: 35px;
     font-family: var(--fonte01);
+}
+
+h4 p {
+    margin-top: 30px;
+    line-height: 30px;
 }
 
 
 div.galeria {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
 }
 
 div.galeria:hover {
@@ -141,6 +148,7 @@ div.galeria img {
 div.desc {
     padding: 15px;
     text-align: center;
+    cursor: pointer;
 }
 
 * {
@@ -170,6 +178,17 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+.topo {
+    text-decoration: none;
+    
+    color: rgb(255, 255, 255);
+    background-color: #1805c7;
+    
+   
+    
+   
 }
 
 footer { /*Configuração geral*/
