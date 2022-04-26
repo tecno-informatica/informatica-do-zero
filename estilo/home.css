@@ -181,12 +181,13 @@ div.desc {
 }
 
 .topo {
-    text-decoration: none;
-    
+    text-decoration: none;  
     color: rgb(255, 255, 255);
-    background-color: #1805c7;
-    
-   
+    background-color: #0a496d;
+    margin-right: -19px;
+    float: right;
+    padding: 8px;
+  
     
    
 }
@@ -203,6 +204,7 @@ footer a { /*Link Rodapé*/
     color: white;
     font-weight: bolder;
     text-decoration: none;
+   
 }
 
 footer a:hover {  /*Ao passar o mouse*/
