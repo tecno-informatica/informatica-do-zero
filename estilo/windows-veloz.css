@@ -26,7 +26,7 @@
      background-color: var(--cor1);
      text-align: center;
      min-height: 100px;
-     padding-top: 40px;
+     padding-top: 25px;
      padding-bottom: -1px;
      overflow: hidden;
      position: fixed;
@@ -47,6 +47,7 @@
  
  img.logo {
      height: 84px;
+     margin-bottom: 5px;
  }
  
  /*
@@ -139,11 +140,32 @@
       list-style-type: disc;
   }
 
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+  .galeria-01 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
+
+    .dica-01 {
+        
+        margin-bottom: 20px;
+    }
+
+  .dica-01 p {
+      color: #acacac;
+      font-size: 15px;
+      border-radius: 7px;
+      padding: 5px 10px;
+      text-align: center;
+     
+  }
+
+  .dica-01 img {
+      height: 350px;
+     
+      
+  }
+
 
