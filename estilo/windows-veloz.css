@@ -130,6 +130,13 @@
      padding: 5px;
      margin-bottom: 15px;
  }
+
+ @media screen and (max-width: 420px) {
+    .titulo {
+        margin-top: -40px;
+    }
+ }
+
   p {
       padding-top: 10px;
       padding-bottom: 10px;
