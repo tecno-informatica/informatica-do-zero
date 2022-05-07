@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 :root {
-   --cor1:#3E76F0;
-   --cor2:#34A6F7;
-   --cor3:#3AC7E0;
-   --cor4:#6DF7E5;
-   --cor5:#69F0B8;
+    --cor1:#3E76F0;
+    --cor2:#34A6F7;
+    --cor3:#3AC7E0;
+    --cor4:#6DF7E5;
+    --cor5:#69F0B8;
+    --cor6:#beebf1;
 
    --fonte01: 'Noto Sans', arial, cursiva, Verdana, Geneva, Tahoma, sans-serif;
    --fonte02: 'Roboto', sans-serif;
@@ -21,12 +22,14 @@
 }
 
 body {
-    background-color: var(--cor5);
+    
+    background-color: #7dc6fa49;
 }
 
 header {
-    background-image: linear-gradient(to top, var(--cor5), var(--cor1));
-    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor6));
+     background-color: var(--cor1);
+     box-shadow: 1px 4px 5px #7dc6fa49;
     text-align: center;
     min-height: 80px;
     padding-top: 40px;
@@ -189,6 +192,27 @@ div.video1 {
     padding: 0.5% 0.5% 0.5% 0.5%;
     
 }
+
+/*BOTÃO VOLTA AO TOPO*/
+.topo {
+    position: absolute;
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    text-decoration: none;  
+    color: rgb(80, 75, 75);
+    background-color: #aaadaf;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 80% 80% 0% 0%;
+}
+
+.topo:hover {
+    background-color: #34A6F7;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2.5px 3px rgba(47, 47, 48, 0.486);
+}
+/*BOTÃO VOLTA AO TOPO*/
 
 footer { /*Configuração geral*/
     background-color: var(--cor1);

@@ -251,6 +251,27 @@ body {
         height: 94%;
     }*/
 
+    /*BOTÃO VOLTA AO TOPO*/
+.topo {
+    position: absolute;
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    text-decoration: none;  
+    color: rgb(80, 75, 75);
+    background-color: #aaadaf;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 80% 80% 0% 0%;
+}
+
+.topo:hover {
+    background-color: #34A6F7;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2.5px 3px rgba(47, 47, 48, 0.486);
+}
+/*BOTÃO VOLTA AO TOPO*/
+
     aside {
         background-color: var(--cor4);
         padding: 10px;

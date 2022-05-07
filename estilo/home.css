@@ -184,6 +184,7 @@ div.desc {
     clear: both;
 }
 
+/*BOTÃO VOLTA AO TOPO*/
 .topo {
     position: absolute;
     position: fixed;
@@ -202,6 +203,7 @@ div.desc {
     color: rgb(255, 255, 255);
     box-shadow: 1px 1px 2.5px 3px rgba(47, 47, 48, 0.486);
 }
+/*BOTÃO VOLTA AO TOPO*/
 
 footer { /*Configuração geral*/
     background-color: var(--cor1);
