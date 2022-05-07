@@ -24,11 +24,12 @@
 }
 
 :root {
-   --cor1:#3E76F0;
-   --cor2:#34A6F7;
-   --cor3:#3AC7E0;
-   --cor4:#6DF7E5;
-   --cor5:#69F0B8;
+    --cor1:#3E76F0;
+    --cor2:#34A6F7;
+    --cor3:#3AC7E0;
+    --cor4:#6DF7E5;
+    --cor5:#69F0B8;
+    --cor6:#beebf1;
 
    --fonte-padrao: 'Arial, times new, Verdana, Helvetica, sans-serif';
    /*--fonte-destaque: 'Bebas Neue', cursiva;*/
@@ -46,7 +47,7 @@
 
 body {
     font-family: var(--fonte-padrao);
-    background-color: var(--cor5);
+    background-color: #7dc6fa49;
     }
 
     a.externo::after {/*Todo Link Externo vai receber esse icone*/
@@ -54,8 +55,9 @@ body {
     }
 
     header {
-        background-image: linear-gradient(to top, var(--cor5), var(--cor1));
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor6));
         background-color: var(--cor1);
+        box-shadow: 1px 4px 5px #7dc6fa49;
         text-align: center;
         min-height: 100px;
         padding-top: 45px;
