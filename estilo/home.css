@@ -9,6 +9,8 @@
     --cor4:#6DF7E5;
     --cor5:#69F0B8;
     --cor6:#beebf1;
+    --cor7:#083d4db9;
+    --cor8:#010a14;
 
    --fonte01: 'Noto Sans', arial, cursiva, Verdana, Geneva, Tahoma, sans-serif;
   
@@ -195,6 +197,19 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+.redsocial {
+    background-color: rgba(122, 183, 241, 0.829);
+    margin: auto;
+    height: 60px;
+}
+
+.youtube {
+    position: absolute;
+    left: 800px;
+    width: 40px;
+    color: red;
 }
 
 /*BOTÃO VOLTA AO TOPO*/
