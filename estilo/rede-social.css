@@ -1,0 +1,66 @@
+.rede_social { 
+	width:100%; 
+	float:left; 
+	display:flex; 
+	margin:auto; 
+    top: 500px;
+    background-color: rgba(230, 227, 228, 0.637);
+}
+
+.rede_social ul  { 
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+}
+
+#instagram:hover {
+    color: #ee840c;
+    
+}
+
+#youtube:hover {
+    color: #ff0909;
+}
+
+.rede_social ul li  { 
+	position:relative; 
+	background:#55555500; 
+	list-style:none; 
+	float:left; 
+	margin:4px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:50px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+
+.rede_social ul li a  { 
+	width:50px; 
+	height:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+
+}
+
+.rede_social ul li::before { 
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#3E76F0; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+
+.rede_social ul li:hover::before { transition:0.4s; top:0%; }
+.rede_social ul li a:hover       { color:#555555; }
+

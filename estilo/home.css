@@ -200,43 +200,6 @@ div.desc {
     clear: both;
 }
 
-.redsocial {
-    background-color: rgba(122, 183, 241, 0.829);
-    margin: auto;
-    height: 60px;
-}
-
-
-.instagram {
-    width: 30px;
-  
-    position: absolute;
-    color: rgb(255, 255, 255);
-    background-color: rgb(219, 103, 8);
-    top: 870px;
-    left: 540px;
-    padding: 0.4%;
-    border-radius: 13px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   
-}
-
-.youtube {
-    width: 30px;
-    position: absolute;
-    color: rgb(230, 228, 225);
-    background-color: rgb(168, 11, 11);
-    top: 870px;
-    left: 590px;
-    padding: 0.4%;
-    border-radius: 13px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
 /*BOTÃO VOLTA AO TOPO*/
 .topo {
     position: absolute;
@@ -263,7 +226,7 @@ footer { /*Configuração geral*/
     color: var(--cor5);
     text-align: center;
     font-size: 0.9em;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer a { /*Link Rodapé*/
