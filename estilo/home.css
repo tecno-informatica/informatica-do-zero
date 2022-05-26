@@ -205,7 +205,7 @@ div.desc {
     position: absolute;
     position: fixed;
     top: 85%;
-    left: 90%;
+    left: -90%;
     text-decoration: none;  
     color: rgb(80, 75, 75);
     background-color: #aaadaf;
@@ -218,6 +218,10 @@ div.desc {
     background-color: #34A6F7;
     color: rgb(255, 255, 255);
     box-shadow: 1px 1px 2.5px 3px rgba(47, 47, 48, 0.486);
+}
+
+.btn-botao .topo {
+    left: 90%;
 }
 /*BOTÃO VOLTA AO TOPO*/
 
