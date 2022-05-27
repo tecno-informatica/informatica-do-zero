@@ -55,7 +55,7 @@ img.logo {
     height: 84px;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 650px) {
     img.logo {
         height: 50px;
         margin-top: 4px;
