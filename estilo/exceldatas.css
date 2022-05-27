@@ -15,10 +15,10 @@
    --fonte02: 'Roboto', sans-serif;
 }
 
-* {
+*{
     margin: 0px;
     padding: 0px;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 body {
@@ -153,12 +153,10 @@ h1 {
     padding-top: 50px;
 }
 
-
+/*Corrigir*/
 ul > li {
     margin-left: 35px;
-    padding: 10px;
-
-    
+    padding: 2px;
 }
 
 ul {
