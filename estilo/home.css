@@ -57,7 +57,7 @@ img.logo {
 
 @media screen and (max-width: 420px) {
     img.logo {
-        height: 60px;
+        height: 50px;
         margin-top: 4px;
     }
 
@@ -217,7 +217,7 @@ div.desc {
 .topo:hover {
     background-color: #34A6F7;
     color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 2.5px 3px rgba(47, 47, 48, 0.486);
+    box-shadow: 1px 1px 2px 1px rgba(47, 47, 48, 0.301);
 }
 
 /*BOTÃO VOLTA AO TOPO*/
