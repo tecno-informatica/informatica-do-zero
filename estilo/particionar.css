@@ -12,6 +12,7 @@
     --cor6:#beebf1;
     --cor7:#083d4db9;
     --cor8:#010a14;
+   
 
     --fonte01: 'Noto Sans', arial, cursiva, Verdana, Geneva, Tahoma, sans-serif;
   
@@ -113,6 +114,30 @@ p {
     padding-bottom: 10px;
     font-size: 1.3em;
     text-align: justify;
+}
+
+strong {
+    color: var(--cor1);
+}
+
+.negrito {
+    color: black;
+}
+
+.numeração {
+    margin-left: 18px;
+}
+
+main a {
+    /*text-decoration: none;*/
+    font-weight: bold;
+    color: rgb(4, 50, 68);
+    /*background-color: var(--cor3);*/
+    padding: 2px 6px;
+}
+ main a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
 }
 
 /*TÍTULO DO CONTEÚDO*/
