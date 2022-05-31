@@ -33,7 +33,7 @@ header {
     box-shadow: 1px 4px 5px #7dc6fa49;
     text-align: center;
     min-height: 100px;
-    padding-top: 40px;
+    padding-top: 45px;
     padding-bottom: -1px;
     overflow: hidden;
     position: fixed;
@@ -41,7 +41,7 @@ header {
 }
 
 img.logo {
-    height: 84px;
+    height: 82px;
 }
 
 @media screen and (max-width: 650px) {
