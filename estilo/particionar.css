@@ -33,16 +33,17 @@ header {
     background-color: var(--cor1);
     box-shadow: 1px 4px 5px #7dc6fa49;
     text-align: center;
-    min-height: 100px;
-    padding-top: 45px;
+    min-height: 20px;
+    padding-top: 42px;
     padding-bottom: -1px;
     overflow: hidden;
     position: fixed;
     width: 100%;
+   
 }
 
 img.logo {
-    height: 82px;
+    height: 60px;
 }
 
 @media screen and (max-width: 650px) {
