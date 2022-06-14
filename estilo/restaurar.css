@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@300 & display=swap');
+
+:root {
+    --cor1:#3E76F0;
+    --cor2:#34A6F7;
+    --cor3:#3AC7E0;
+    --cor4:#6DF7E5;
+    --cor5:#69F0B8;
+    --cor6:#beebf1;
+    --cor7:#083d4db9;
+    --cor8:#010a14;
+
+   --fonte01: 'Noto Sans', arial, cursiva, Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #7dc6fa49;
+    font-family: var(--fonte01);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor6));
+    background-color: var(--cor1);
+    box-shadow: 1px 4px 5px #7dc6fa49;
+    text-align: center;
+    min-height: 20px;
+    padding-top: 42px;
+    padding-bottom: -1px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+img.logo {
+    height: 60px;
+}
+
+@media screen and (max-width: 650px) {
+    img.logo {
+        height: 50px;
+        margin-top: 4px;
+    }
+
+    header {
+       min-height: 60px;
+       padding-top: 40px;
+       width: 100%;
+    }
+}
+
+nav {
+    background-color: rgba(34, 93, 221, 0.842);
+    box-shadow: 6px 2px 10px 2px rgba(0, 0, 0, 0.144);
+    padding: 12px;
+    font-size: 1.1em;
+    font-family: 'RobotoBold', Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: -1%;
+}
+
+nav > a {
+    color: rgb(206, 203, 203);
+    padding: 11px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+@media (min-width:500px) and (max-width: 700px) {
+    nav > a {
+        padding:9px;
+    }
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor1);
+}
+
+/*TÍTULO DO CONTEÚDO*/
+.titulo {
+    color: white;
+    background-color: var(--cor1);
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 420px) {
+   .titulo {
+       margin-top: -40px;
+   }
+}
+
+/*IMAGENS ILUSTRATIVAS*/
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*IMAGENS ILUSTRATIVAS*/
+
+strong {
+    color: var(--cor1);
+}
+
+.negrito {
+    color: black;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 150px;
+    background-color: rgb(243, 240, 240);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+
+@media (min-width:250px) and (max-width:800px) {
+    main {
+        padding-top: 170px;
+    }
+}
+
+/*BOTÃO VOLTA AO TOPO*/
+.topo {
+    position: absolute;
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    text-decoration: none;  
+    color: rgb(80, 75, 75);
+    background-color: #aaadaf;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 80% 80% 0% 0%;
+}
+
+.topo:hover {
+    background-color: #34A6F7;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 1px rgba(47, 47, 48, 0.301);
+}
+
+/*BOTÃO VOLTA AO TOPO*/
+
+footer { /*Configuração geral*/
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+footer a { /*Link Rodapé*/
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+   
+}
+
+footer a:hover {  /*Ao passar o mouse*/
+    text-decoration: underline;
+    color: var(--cor5);
+}
+
+/*ASSUNTOS RELACIONADOS*/
+p.assuntos {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, black, transparent);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 420px) {
+    p.assuntos {
+        margin-bottom: 10px;
+    }
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.ordenação {
+    font-size: 1.3em;
+    margin-left: 18px;
+    text-align: justify;
+}
+
+footer #rodape { /*Configuração geral*/
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
+div.video1 {
+    background-color: #f1eded;
+    margin: 0px 5px 30px 5px;
+    text-align: center;
+    border-radius: 3%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    
+}
+
+.espaço {
+    padding-top: 1%;
+}
+/*ASSUNTOS RELACIONADOS*/
