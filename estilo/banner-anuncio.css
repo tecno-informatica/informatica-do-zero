@@ -13,10 +13,4 @@
     text-align: center;
 }
 
-@media screen and (max-width: 420px) {
-    .anuncio {
-        margin: 60%;
-    }
-}
-
 /*ANUNCIO FORMATAR COMPUTADOR*/
