@@ -313,7 +313,7 @@ div.video1 {
 }
 
 @media screen and (max-width: 420px) {
-    .banner {
+    .anuncio {
         margin: 60%;
     }
 }
