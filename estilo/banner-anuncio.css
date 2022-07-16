@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*ANUNCIO FORMATAR COMPUTADOR*/
+.anuncio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.banner {
+    text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+    .anuncio {
+        margin: 60%;
+    }
+}
+
+/*ANUNCIO FORMATAR COMPUTADOR*/
