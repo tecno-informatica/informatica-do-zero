@@ -312,6 +312,13 @@ div.video1 {
     text-align: center;
 }
 
+@media screen and (max-width: 420px) {
+    .banner {
+        margin: 60%;
+    }
+}
+
+
 
 
 /*ANUNCIO BANNER*/
