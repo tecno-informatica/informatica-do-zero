@@ -298,6 +298,20 @@ div.video1 {
 }
 /*ASSUNTOS RELACIONADOS*/
 
+/*ANUNCIO BANNER*/
+.anuncio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+/*ANUNCIO BANNER*/
+
 /*BOTÃO VOLTA AO TOPO*/
 .topo {
     position: absolute;
